@@ -1,6 +1,6 @@
 
 const weatherApi = {
-    key: '6915cbce9c29762b15a4552f8ffa4330',
+    key: 'ce8d4978d604d41e6d6fdfd0179966d0',
     baseUrl: 'https://api.openweathermap.org/data/2.5/weather'
 }
 
@@ -87,29 +87,29 @@ function dateManage(dateArg) {
 
 function changeBg(status) {
     if (status === 'Clouds') {
-        document.body.style.backgroundImage = 'url(../images/clouds.jpeg)';
+        document.body.style.backgroundImage = 'url(./image/clouds.jpeg)';
     } else if (status === 'Rain') {
-        document.body.style.backgroundImage = 'url(../images/rain.jpeg)';
+        document.body.style.backgroundImage = 'url(./image/rain.jpeg)';
     } else if (status === 'Clear') {
-        document.body.style.backgroundImage = 'url(../images/clear.jpeg)';
+        document.body.style.backgroundImage = 'url(./image/clear.jpeg)';
     }
     else if (status === 'Snow') {
-        document.body.style.backgroundImage = 'url(../images/snow.jpeg)';
+        document.body.style.backgroundImage = 'url(./image/snow.jpeg)';
     }
     else if (status === 'Sunny') {
-        document.body.style.backgroundImage = 'url(../images/sunny.jpeg)';
+        document.body.style.backgroundImage = 'url(./image/sunny.jpeg)';
     } 
     else if (status === 'Thunderstorm') {
-        document.body.style.backgroundImage = 'url(../images/thunder.jpeg)';
+        document.body.style.backgroundImage = 'url(./image/thunder.jpeg)';
     } 
     else if (status === 'Drizzle') {
-        document.body.style.backgroundImage = 'url(../images/drizzle.jpeg)';
+        document.body.style.backgroundImage = 'url(./image/drizzle.jpeg)';
     } 
     else if (status === 'Mist' || status === 'Haze' || status === 'Fog') {
-        document.body.style.backgroundImage = 'url(../images/mist.jpeg)';
+        document.body.style.backgroundImage = 'url(./image/mist.jpeg)';
     }
     else {
-        document.body.style.backgroundImage = 'url(../images/bg1.jpeg)';
+        document.body.style.backgroundImage = 'url(./image/bg1.jpeg)';
     }
 }
 
