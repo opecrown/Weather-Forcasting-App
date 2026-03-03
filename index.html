@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="icon" href="./images/logo.png" type="image/x-icon">
 </head>
-<body>
-    <div class="container">
-        <h1>Weather App</h1>
-        <input type="text" id="locationInput" placeholder="Enter a city">
-        <button id="SearchButton">Search</button>
-        <div class="weather-info">
-            <h2 id="Location"></h2>
-            <p id="Temperature"></p>
-            <p id="Description"></p>
+<body>    
+
+  <div class="outer-bg">
+
+    <div class="over-lay">
+
+      <div class="bg-img"></div>
+  
+      <div class="centered-box">
+
+        <div class="inner-bg">
+          <img src="./images/Sleeping-all-Day-unscreen.gif" class="logo">
         </div>
+
+        <div class="content">
+          <h2>Weather<br>Forecasts</h2>
+        </div>
+
+        <a href="./main.html"><button id="btn" class="btn">Get Started</button></a>
+        
+        <p class="para">Check any weather</p>
+      </div>
+  
     </div>
-    <script src="script.js"></script>
-    
+
+  </div>
+
 </body>
 </html>
